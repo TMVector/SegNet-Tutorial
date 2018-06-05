@@ -83,13 +83,13 @@ while rval:
 	#  cv2.imshow("SegNet", segmentation_rgb)
         cv2.imwrite("output.png", segmentation_rgb)
 
-        print("OUT:")
-        print(out)
-        print()
+        #  print("OUT:")
+        #  print(out)
+        #  print()
 
-        print("segmentation_rgb:")
-        print(segmentation_rgb)
-        print()
+        #  print("segmentation_rgb:")
+        #  print(segmentation_rgb)
+        #  print()
 
 	#  key = cv2.waitKey(1)
 	#  if key == 27: # exit on ESC
