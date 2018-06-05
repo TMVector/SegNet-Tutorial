@@ -25,6 +25,7 @@ in
       [ caffe
         caffe.py
         python27
+        wget
       ] ++ (with pythonPackages; [
         cython
         numpy
